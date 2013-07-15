@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Login.aspx.cs" Inherits="Login" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="LoginBackup.aspx.cs" Inherits="Login" %>
 
 <!DOCTYPE html>
 
@@ -14,8 +14,8 @@
 
 		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
 		<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+		<script type="text/javascript" src="js/begin.js"></script>
 		<script type="text/javascript" src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
-        <script type="text/javascript" src="js/login.js"></script>
 
 </head>
 <body>
@@ -44,7 +44,7 @@
 						</div>
 					</li>
 					<li>
-						<a href="begin2.aspx">START</a>
+						<a href="begin.html">START</a>
 						<div class="ac_subitem">
 							<span class="ac_close"></span>
 							
@@ -63,11 +63,10 @@
 		</div>
 
 		<div id="mainBox">
-            <asp:Login ID="Login1" runat="server">
-            </asp:Login>
+
 			
 		 		
-            
+
  		</div> <!-- End of mainBox -->
 
  			<div id="helpBox">
